@@ -1,0 +1,116 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #2A2A2A;
+    height: 100%;
+    width: 12vw;
+    flex-shrink: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #131313;
+    width: 88vw;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 8vh;
+    border-bottom: 1px solid rgba(85, 67, 54, 0.20);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-top: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
+    gap: 30px;
+}
+
+.editorial-header{
+    border-left: 4px solid #FFB77D;
+    padding-left: 32px;
+}
+
+.editorial-header h1{
+    color: #E5E2E1;
+    font-family:sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 15px;
+
+}
+
+.editorial-header p{
+    color: #DBC2B0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 600px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.tec-details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inputs{
+    display: flex;
+    height: 400px;
+    width: 950px;
+    background: #1C1B1B;
+}
+
+.desc-block{
+    display: flex;
+    width: 950px;
+    height: 280px;
+    background: #1C1B1B;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.send-image{
+    display: flex;
+    width: 380px;
+    height: 400px;
+    background: #1C1B1B;
+    border: 2px dashed rgba(85, 67, 54, 0.30);
+}
+
+.sidebar a{
+    display: flex;
+    height: 90px;
+    width: 380px;
+    background-color: #F28C28;
+    gap: 20px;
+}
